@@ -1,15 +1,16 @@
 # ReviewSystem
-Eg: Amazon or movie reviews
-x=["this product is not good enough"]
-h=tfidf_v.transform(x)
-y=model.predict(h)
-def find(y):
-    if y == 1:
-        print ("Review is positive")
-    else:
-        print ("Review is negative")
+# Eg: Amazon or movie reviews
 
-find(y)
+- x=["this product is not good enough"]<br>
+ h=tfidf_v.transform(x)<br>
+ y=model.predict(h)<br>
+- def find(y):<br>
+    if y == 1:<br>
+       print ("Review is positive")<br>
+    else:<br>
+        print ("Review is negative")<br>
+
+find(y)<br>
 
 # Output 
 Review is negative
